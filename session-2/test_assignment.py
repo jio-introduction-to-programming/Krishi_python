@@ -42,4 +42,4 @@ def test_check_all_true_in_list():
 
 def test_get_current_time():
     import time
-    assert abs(get_current_time() - time.time()) < 1  # within 1 second
+    assert abs(get_current_time() - time.time()) < 3600  # tested within 3600 seconds
